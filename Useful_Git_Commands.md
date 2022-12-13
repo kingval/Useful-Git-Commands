@@ -1,35 +1,59 @@
 # UseFul GitHub Commands
 
 git init //initialise Git
+
 git add . //add all files
+
 git commit -m "INSERT COMMENT HERE" //staging area
+
 git clone HTTP_LINK //to clone a repo
+
 git pull //to pull updates from a repo
+
 git push origin master //to set git to link to master
+
 git fork //copy another git repo
+
 git config --global user.name "your_user_name" //Enter your git account details
+
 git config --global user.email "your_user_eMail_address"
+
 git config --global user.password "your_user_password"
+
 git config --list //shows your git config
+
 ls // List all the files in the folder
+
 echo "# manualClassPackage1" >> README.md
+
 git add README.md
 
 ## =========  To Add a New Repo and update your files and first commit  =========
 
 git init
+
 git remote add origin Your\_https://github.com/Your_New_REPO_Link_Here
+
 git branch -M main
+
 git add .
+
 git status
+
 git commit -m "first commit"
+
 git status
+
 git push -u origin main
+
 git status
 
 ## =========  To update your files in the same repo  =========
 
 git add .
+
 git commit -m "INSERT COMMENT HERE"
+
 git status
+
 git push
