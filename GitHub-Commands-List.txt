@@ -14,30 +14,22 @@ git config --list								//shows your git config
 
 ls										// List all the files in the folder
 
-==================  Basic New Repo Add  ==================
-
 echo "# manualClassPackage1" >> README.md
+
+
+======  To Add a New Repo and update your files and first commit  ======
+
 git init
-git add README.md
+git remote add origin Your_https://github.com/Your_New_REPO_Link_Here
+git branch -M main
+git add .
+git status
 git commit -m "first commit"
-git branch -M main
-git remote add origin Your_https://github.com/Your_User_Name_Folder_LinkHere
-git push -u origin main
-
-============  To Add a New Repo and update your files and first commit  ============
-
-echo "# manualClassPackage1" >> README.md
-git init
-git remote add origin Your_https://github.com/Your_User_Name_Folder_LinkHere
-git branch -M main
-git add .						
-git status
-git commit -m "first commit"	
 git status
 git push -u origin main
 git status
 
-==============  To update your files in the same repo  ==============
+========  To update your files in the same repo  ========
 
 git add .
 git commit -m "INSERT COMMENT HERE"
